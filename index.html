@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.min.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col text-right">
+            <div class="d-inline-block" style="width: 200px">
+                <input type="text" id="example1" class="form-control irxDatePicker" value="2022-01-22"
+                    style="cursor: pointer" />
+            </div>
+        </div>
+        <div class="col text-center">
+            <div class="d-inline-block" style="width: 200px">
+                <input type="text" id="example22" class="form-control irxDatePicker" value="Jan 2030"
+                    style="cursor: pointer" />
+            </div>
+        </div>
+        <div class="col text-center">
+            <div class="d-inline-block" style="width: 200px">
+                <input type="text" id="example2" class="form-control irxDatePicker" value="Q1 2030"
+                    style="cursor: pointer" />
+            </div>
+        </div>
+        <div class="col">
+            <div class="d-inline-block" style="width: 200px">
+                <input type="text" id="example3" class="form-control irxDatePicker" value="H2 2025"
+                    style="cursor: pointer" />
+            </div>
+        </div>
+        <div class="col">
+            <div class="d-inline-block" style="width: 200px">
+                <input type="text" id="example33" class="form-control irxDatePicker" value="2025"
+                    style="cursor: pointer" />
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col text-right">
+            <div class="d-inline-block" style="width: 200px">
+                <input type="text" id="example4" class="form-control irxDatePicker" data-topButtons="DMQHY"
+                    value="2022-01-22" style="cursor: pointer" />
+            </div>
+        </div>
+        <div class="col text-center">
+            <div class="d-inline-block" style="width: 200px">
+                <input type="text" id="example5" class="form-control irxDatePicker" data-topButtons="DMQHY"
+                    value="Q1 2030" style="cursor: pointer" />
+            </div>
+        </div>
+        <div class="col">
+            <div class="d-inline-block" style="width: 200px">
+                <input type="text" id="example6" class="form-control irxDatePicker" data-topButtons="DMQ"
+                    value="H2 2025" style="cursor: pointer" />
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="row">
+        <div class="col text-right">
+            <div class="d-inline-block" style="width: 200px">
+                <input type="text" id="example7" class="form-control irxDatePicker" data-topButtons="DMY"
+                    value="2022-01-22" style="cursor: pointer" />
+            </div>
+        </div>
+        <div class="col text-center">
+            <div class="d-inline-block" style="width: 200px">
+                <input type="text" id="example8" class="form-control irxDatePicker" data-topButtons="DMQHY"
+                    value="Q1 2030" style="cursor: pointer" />
+            </div>
+        </div>
+        <div class="col">
+            <div class="d-inline-block" style="width: 200px">
+                <input type="text" id="example9" class="form-control irxDatePicker" data-topButtons="DMQ"
+                    value="H2 2025" style="cursor: pointer" />
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="assets/js/jquery-3.4.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="customDatePicker.js"></script>
+    <script>
+        $(document).ready(function (param) {
+            $('.irxDatePicker').irxDatePicker();
+        });
+
+    </script>
+</body>
+
+</html>
